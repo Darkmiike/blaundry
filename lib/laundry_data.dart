@@ -22,7 +22,7 @@ class _AddCountState extends State<AddCount> {
   }
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children:  [
          ElevatedButton(style: const ButtonStyle(backgroundColor: MaterialStatePropertyAll<Color>(Colors.grey)) ,onPressed: (){addCounter();}, child: const Text('add')),
